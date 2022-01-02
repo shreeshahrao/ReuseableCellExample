@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var newView: TestView!
+    
+    @IBOutlet weak var bottomView: TestView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        newView.labelTitle.text = "Welcome"
+        
+        bottomView.labelTitle.text = "Bottom"
     }
 
 

@@ -16,6 +16,8 @@
 		3878F922278202F300C89391 /* ReuseableCellExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3878F921278202F300C89391 /* ReuseableCellExampleTests.swift */; };
 		3878F92C278202F300C89391 /* ReuseableCellExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3878F92B278202F300C89391 /* ReuseableCellExampleUITests.swift */; };
 		3878F92E278202F300C89391 /* ReuseableCellExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3878F92D278202F300C89391 /* ReuseableCellExampleUITestsLaunchTests.swift */; };
+		3878F93B278203D300C89391 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3878F93A278203D300C89391 /* TestView.xib */; };
+		3878F93D2782040900C89391 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3878F93C2782040900C89391 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3878F927278202F300C89391 /* ReuseableCellExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReuseableCellExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3878F92B278202F300C89391 /* ReuseableCellExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseableCellExampleUITests.swift; sourceTree = "<group>"; };
 		3878F92D278202F300C89391 /* ReuseableCellExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseableCellExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3878F93A278203D300C89391 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		3878F93C2782040900C89391 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3878F913278202F300C89391 /* Assets.xcassets */,
 				3878F915278202F300C89391 /* LaunchScreen.storyboard */,
 				3878F918278202F300C89391 /* Info.plist */,
+				3878F93A278203D300C89391 /* TestView.xib */,
+				3878F93C2782040900C89391 /* TestView.swift */,
 			);
 			path = ReuseableCellExample;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3878F93B278203D300C89391 /* TestView.xib in Resources */,
 				3878F917278202F300C89391 /* LaunchScreen.storyboard in Resources */,
 				3878F914278202F300C89391 /* Assets.xcassets in Resources */,
 				3878F912278202F100C89391 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3878F93D2782040900C89391 /* TestView.swift in Sources */,
 				3878F90F278202F100C89391 /* ViewController.swift in Sources */,
 				3878F90B278202F100C89391 /* AppDelegate.swift in Sources */,
 				3878F90D278202F100C89391 /* SceneDelegate.swift in Sources */,
